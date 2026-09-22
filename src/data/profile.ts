@@ -16,18 +16,17 @@ export const siteConfig = {
   cvUrl: "/cv-placeholder.pdf",
 };
 
-export const stats: Record<Locale, { value: string; key: "statsYears" | "statsProjects" | "statsClients" }[]> = {
-  fr: [
-    { value: "5+", key: "statsYears" },
-    { value: "30+", key: "statsProjects" },
-    { value: "12", key: "statsClients" },
-  ],
-  en: [
-    { value: "5+", key: "statsYears" },
-    { value: "30+", key: "statsProjects" },
-    { value: "12", key: "statsClients" },
-  ],
+export const yearsOfExperience = "5+";
+
+export type Highlight = {
+  icon: "refresh" | "handshake";
+  key: "highlightMaintenance" | "highlightRelationship";
 };
+
+export const highlights: Highlight[] = [
+  { icon: "refresh", key: "highlightMaintenance" },
+  { icon: "handshake", key: "highlightRelationship" },
+];
 
 export type ExperienceEntry = {
   role: string;

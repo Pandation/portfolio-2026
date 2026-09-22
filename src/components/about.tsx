@@ -1,15 +1,18 @@
 "use client";
 
-import { useLocale, useTranslations } from "next-intl";
-import { MapPin } from "lucide-react";
+import { useTranslations } from "next-intl";
+import { Handshake, MapPin, RefreshCcw } from "lucide-react";
 import { Reveal, RevealGroup, RevealItem } from "@/components/reveal";
 import { SectionHeading } from "@/components/section-heading";
-import { stats, type Locale } from "@/data/profile";
+import { highlights, yearsOfExperience } from "@/data/profile";
+
+const icons = {
+  refresh: RefreshCcw,
+  handshake: Handshake,
+};
 
 export function About() {
   const t = useTranslations("about");
-  const locale = useLocale() as Locale;
-  const localeStats = stats[locale];
 
   return (
     <section id="about" className="mx-auto max-w-6xl px-6 py-28">
@@ -29,18 +32,28 @@ export function About() {
           </div>
         </Reveal>
 
-        <RevealGroup className="md:col-span-2 grid grid-cols-3 md:grid-cols-1 gap-4">
-          {localeStats.map((s) => (
-            <RevealItem
-              key={s.key}
-              className="rounded-2xl border border-border bg-background-elevated/60 p-6 text-center md:text-left"
-            >
-              <p className="font-display text-3xl font-semibold text-gradient">
-                {s.value}
-              </p>
-              <p className="mt-1 text-sm text-muted">{t(s.key)}</p>
-            </RevealItem>
-          ))}
+        <RevealGroup className="md:col-span-2 flex flex-col gap-4">
+          <RevealItem className="rounded-2xl border border-border bg-background-elevated/60 p-6">
+            <p className="font-display text-3xl font-semibold text-gradient">
+              {yearsOfExperience}
+            </p>
+            <p className="mt-1 text-sm text-muted">{t("statsYears")}</p>
+          </RevealItem>
+
+          {highlights.map((h) => {
+            const Icon = icons[h.icon];
+            return (
+              <RevealItem
+                key={h.key}
+                className="flex items-start gap-3 rounded-2xl border border-border bg-background-elevated/60 p-6"
+              >
+                <Icon size={20} className="mt-0.5 shrink-0 text-accent" />
+                <p className="text-sm leading-relaxed text-foreground/85">
+                  {t(h.key)}
+                </p>
+              </RevealItem>
+            );
+          })}
         </RevealGroup>
       </div>
     </section>

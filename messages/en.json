@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Alex Moreau — Full-Stack Developer",
+    "description": "Portfolio of Alex Moreau, a full-stack developer specialized in React, Node.js and cloud architectures."
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "downloadCV": "Resume"
+  },
+  "hero": {
+    "eyebrow": "Available for new opportunities",
+    "greeting": "Hi, I'm",
+    "role": "Full-Stack Developer",
+    "pitch": "I build fast, accessible and polished web applications, from early prototypes all the way to production.",
+    "ctaProjects": "View my work",
+    "ctaContact": "Get in touch",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "title": "About",
+    "kicker": "Who I am",
+    "paragraph1": "I'm a full-stack developer passionate about building performant, elegant web experiences — comfortable working on backend architecture as well as the interface details that matter to end users.",
+    "paragraph2": "Curious and autonomous, I like understanding the business context before writing code, and I care deeply about quality, performance and accessibility in everything I ship.",
+    "location": "Based in Paris, France — open to remote",
+    "statsYears": "years of experience",
+    "statsProjects": "projects shipped",
+    "statsClients": "clients"
+  },
+  "experience": {
+    "title": "Experience",
+    "kicker": "Experience & Education",
+    "workTitle": "Work Experience",
+    "educationTitle": "Education",
+    "current": "Present"
+  },
+  "projects": {
+    "title": "Projects",
+    "kicker": "Recent work",
+    "viewCode": "Code",
+    "viewDemo": "Demo",
+    "featured": "Featured"
+  },
+  "skills": {
+    "title": "Skills",
+    "kicker": "Toolbox",
+    "categories": {
+      "languages": "Languages",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools & Cloud"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "kicker": "Let's work together",
+    "heading": "Got a project in mind?",
+    "paragraph": "I'm currently looking for new opportunities. Feel free to reach out, I usually reply quickly.",
+    "emailCta": "Send an email",
+    "location": "Paris, France"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top",
+    "madeWith": "Designed and built with Next.js"
+  }
+}

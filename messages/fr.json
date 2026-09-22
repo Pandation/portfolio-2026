@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Alex Moreau — Développeur Full-Stack",
+    "description": "Portfolio d'Alex Moreau, développeur full-stack spécialisé en React, Node.js et architectures cloud."
+  },
+  "nav": {
+    "about": "À propos",
+    "experience": "Parcours",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "contact": "Contact",
+    "downloadCV": "CV"
+  },
+  "hero": {
+    "eyebrow": "Disponible pour de nouvelles opportunités",
+    "greeting": "Bonjour, je suis",
+    "role": "Développeur Full-Stack",
+    "pitch": "Je conçois des applications web rapides, accessibles et soignées, du prototypage à la mise en production.",
+    "ctaProjects": "Voir mes projets",
+    "ctaContact": "Me contacter",
+    "scroll": "Défiler"
+  },
+  "about": {
+    "title": "À propos",
+    "kicker": "Qui je suis",
+    "paragraph1": "Développeur full-stack passionné par la création d'expériences web performantes et élégantes, je travaille aussi bien sur l'architecture backend que sur les détails d'interface qui font la différence pour l'utilisateur final.",
+    "paragraph2": "Curieux et autonome, j'aime comprendre les enjeux métier avant de coder, et je porte une attention particulière à la qualité, aux performances et à l'accessibilité de ce que je livre.",
+    "location": "Basé à Paris, France — ouvert au remote",
+    "statsYears": "ans d'expérience",
+    "statsProjects": "projets livrés",
+    "statsClients": "clients accompagnés"
+  },
+  "experience": {
+    "title": "Parcours",
+    "kicker": "Expérience & Formation",
+    "workTitle": "Expérience professionnelle",
+    "educationTitle": "Formation",
+    "current": "Présent"
+  },
+  "projects": {
+    "title": "Projets",
+    "kicker": "Réalisations récentes",
+    "viewCode": "Code",
+    "viewDemo": "Démo",
+    "featured": "Mis en avant"
+  },
+  "skills": {
+    "title": "Compétences",
+    "kicker": "Boîte à outils",
+    "categories": {
+      "languages": "Langages",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Outils & Cloud"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "kicker": "Travaillons ensemble",
+    "heading": "Un projet en tête ?",
+    "paragraph": "Je suis actuellement à la recherche de nouvelles opportunités. N'hésitez pas à me contacter, je réponds rapidement.",
+    "emailCta": "Envoyer un email",
+    "location": "Paris, France"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "backToTop": "Retour en haut",
+    "madeWith": "Conçu et développé avec Next.js"
+  }
+}

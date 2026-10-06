@@ -66,5 +66,21 @@
     "rights": "All rights reserved.",
     "backToTop": "Back to top",
     "madeWith": "Designed and built with Next.js"
+  },
+  "slinger": {
+    "loading": "Lighting up the city…",
+    "next": "Next project",
+    "prev": "Previous project",
+    "goTo": "Go to project {index}",
+    "hint": "Arrows, scroll or swipe to travel",
+    "classic": "Classic version",
+    "builtWith": "Designed and coded with Claude Code",
+    "builtWithDetail": "A 100% procedural Three.js scene: city, hero and animations are all generated in code.",
+    "openProject": "Open project",
+    "contactTitle": "Let's work together",
+    "contactText": "The Web Slinger has finished the tour. Got a project in mind? I reply quickly.",
+    "allProjects": "All projects",
+    "fallbackNotice": "Reduced motion: here is the lightweight version of the portfolio.",
+    "swinging": "On the way…"
   }
 }

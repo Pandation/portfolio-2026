@@ -147,6 +147,10 @@ export type Project = {
   githubUrl?: string;
   demoUrl?: string;
   featured?: boolean;
+  // Visuel affiché sur le panneau publicitaire de l'accueil 3D (fichiers dans
+  // public/projects/). Sans média, un visuel est généré à partir du projet.
+  // Format conseillé : 16:9 (ex. 1600×900), vidéo mp4 muette en boucle.
+  media?: { image?: string; video?: string };
 };
 
 export const projects: Record<Locale, Project[]> = {

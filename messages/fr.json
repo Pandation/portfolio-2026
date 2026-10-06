@@ -66,5 +66,21 @@
     "rights": "Tous droits réservés.",
     "backToTop": "Retour en haut",
     "madeWith": "Conçu et développé avec Next.js"
+  },
+  "slinger": {
+    "loading": "La ville s'allume…",
+    "next": "Projet suivant",
+    "prev": "Projet précédent",
+    "goTo": "Aller au projet {index}",
+    "hint": "Flèches, molette ou swipe pour voyager",
+    "classic": "Version classique",
+    "builtWith": "Conçu et codé avec Claude Code",
+    "builtWithDetail": "Scène Three.js 100 % procédurale : ville, héros et animations générés en code.",
+    "openProject": "Ouvrir le projet",
+    "contactTitle": "Travaillons ensemble",
+    "contactText": "Le Web Slinger a fini sa tournée. Un projet en tête ? Je réponds vite.",
+    "allProjects": "Tous les projets",
+    "fallbackNotice": "Animations réduites : voici la version allégée du portfolio.",
+    "swinging": "En route…"
   }
 }
